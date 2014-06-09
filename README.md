@@ -20,8 +20,8 @@ $ jls
 {"name":"README.md","path":"/Users/maxvoloshin/golang/src/github.com/max-voloshin/jls/README.md","size":92,"dir":false,"file":true,"append_only":false,"exclusive":false,"temporary":false,"symlink":false,"device":false,"named_pipe":false,"socket":false,"setuid":false,"setgid":false,"char_device":false,"sticky":false,"owner_read":true,"owner_write":true,"owner_execure":false,"group_read":true,"group_write":false,"group_execute":false,"other_read":true,"other_write":false,"other_execute":false,"permissions":"-rw-r--r--","mtime":1402320916,"ctime":1402320918,"atime":1402320916,"uid":501,"gid":20}
 ```
 
-Properies
-=========
+Properties
+==========
 
 General
 -------
@@ -69,6 +69,11 @@ Time
 * ``mtime`` (int) – UNIX time of modification
 * ``ctime`` (int) - UNIX time of creation
 * ``atime`` (int) - UNIX time of access
+
+Acknowledgements
+================
+
+This project uses idea of [json4shell](https://github.com/amarao/json4shell) project.
 
 License
 =======
